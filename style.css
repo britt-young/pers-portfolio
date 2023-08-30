@@ -14,21 +14,24 @@ body {
 }
 
 h1 {
-  display:inline-block;
+  display: block;
+  background-color: black;
+  padding: 5px;
+  margin:auto;
+  float: left;
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  justify-content:
 }
 
 header {
   padding: 40px;
-  text-align: center;
   background: var(--default-dark);
   color: var(--default);
 }
 
 nav {
-  display: flex;
-  background-color: maroon;
+  display: block;
+  float: right;
   justify-content: flex-end;
 }
 
@@ -36,7 +39,6 @@ nav a {
   color: var(--default-dark);
   padding: 14px 20px;
   color:white;
-  text-align: center;
 }
 
 nav a:hover {
