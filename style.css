@@ -14,17 +14,9 @@ body {
 }
 
 h1 {
+  display:inline-block;
   font-size: 2.5rem;
   margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-h3 {
-  display: block;
 }
 
 header {
@@ -36,23 +28,20 @@ header {
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: maroon;
+  justify-content: flex-end;
 }
 
 nav a {
   color: var(--default-dark);
   padding: 14px 20px;
+  color:white;
   text-align: center;
 }
 
 nav a:hover {
   background-color: var(--default);
 }
-
-/*main {
-    display: flex;
-    flex-wrap: wrap;
-  }*/
 
 footer {
   width: 100%;
@@ -64,22 +53,14 @@ footer {
   margin-top: auto;
 }
 
-/*
-.titles {
-  background-color: var(--default);
-  border-right: 3px solid maroon;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-}
-*/
-
 span {
   background-color: var(--default);
   border-right: 3px solid maroon;
   display: inline-block;
   width: 200px;
   height: 200px;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: right;
   padding-right: 20px;
 }
@@ -89,20 +70,6 @@ span {
   flex: 0 0 150px;
   margin: 20px;
   display: block;
-}
-
-.card > header {
-  border-radius: var(--default-border-radius) var(--default-border-radius) 0px
-    0px;
-  padding: 20px;
-}
-
-.card > p {
-  text-align: center;
-}
-
-.card > img {
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
