@@ -15,7 +15,8 @@ body {
 
 h1 {
   display: block;
-  background-color: black;
+  border-radius: 5px;
+  background-color: rgb(62, 48, 71);
   padding: 5px;
   margin:auto;
   float: left;
@@ -25,8 +26,8 @@ h1 {
 
 header {
   padding: 40px;
-  background: var(--default-dark);
-  color: var(--default);
+  background: rgb(12, 24, 49);
+  color: white;
 }
 
 nav {
@@ -36,13 +37,12 @@ nav {
 }
 
 nav a {
-  color: var(--default-dark);
   padding: 14px 20px;
   color:white;
 }
 
 nav a:hover {
-  background-color: var(--default);
+  background-color: rgb(145, 248, 234);
 }
 
 footer {
@@ -50,14 +50,14 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: var(--default-dark);
-  color: var(--default);
+  background:  rgb(12, 24, 49);
+  color: none;
   margin-top: auto;
 }
 
 span {
   background-color: var(--default);
-  border-right: 3px solid maroon;
+  border-right: 3px solid rgb(96, 76, 109);
   display: inline-block;
   width: 200px;
   height: 200px;
