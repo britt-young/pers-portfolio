@@ -14,14 +14,14 @@ body {
 }
 
 h1 {
-  display: block;
+  display:block;
+  float: top;
+  width: 300px;
   border-radius: 5px;
   background-color: rgb(62, 48, 71);
   padding: 5px;
-  margin:auto;
-  float: left;
+  margin:0px;
   font-size: 2.5rem;
-  justify-content:
 }
 
 header {
@@ -45,6 +45,19 @@ nav a:hover {
   background-color: rgb(145, 248, 234);
 }
 
+h2 {
+height: 150px;
+width: auto;
+margin: auto;
+background-color: rgb(105, 87, 117);
+color:white;
+display: block;
+text-align: right;
+position: relative;
+
+}
+
+
 footer {
   width: 100%;
   bottom: 0;
@@ -66,12 +79,24 @@ span {
   text-align: right;
   padding-right: 20px;
 }
+/* 
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.blur {
+  filter: blur(10px);
+} */
 
 .content {
   padding: 10px;
   flex: 0 0 150px;
   margin: 20px;
-  display: block;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 @media screen and (max-width: 768px) {
