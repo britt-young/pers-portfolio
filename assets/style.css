@@ -81,8 +81,9 @@ footer {
 
 ul {
   display: flex;
+  flex-direction:column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: spce-around;
   }
 
 .content {
