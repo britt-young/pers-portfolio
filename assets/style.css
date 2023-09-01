@@ -14,12 +14,12 @@ body {
 }
 
 h1 {
-  display:flex;
+  display: flex;
   width: 300px;
   border-radius: 5px;
   background-color: rgb(62, 48, 71);
   padding: 1px;
-  margin:0px;
+  margin: 0px;
   font-size: 2.5rem;
 }
 
@@ -37,23 +37,36 @@ nav {
 
 nav a {
   padding: 14px 20px;
-  color:white;
+  color: white;
 }
 
 nav a:hover {
   background-color: rgb(145, 248, 234);
 }
 
-h2 {
-height: 50px;
-width: auto;
-margin: auto;
-background-image:linear-gradient(65deg,#695775, #0c1831);
-background-color: #695775;
-color:white;
-display: block;
-text-align:right;
-position: relative;
+.subtitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-image: linear-gradient(65deg, #695775, #0c1831);
+  background-color: #695775;
+  color: white;
+  text-align: right;
+  /* position: relative; */
+}
+
+section {
+  display: flex;
+}
+
+section h2 {
+  border-right: 2px solid currentColor;
+  font-size: 30px;
+  text-align: end;
+  color: black;
+  flex-basis: 10ch;
+  flex-shrink: 0;
 }
 
 div {
@@ -74,27 +87,34 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background:  #0c1831;
+  background: #0c1831;
   color: none;
   margin-top: auto;
 }
 
 ul {
   display: flex;
-  flex-direction:column;
   flex-wrap: wrap;
-  justify-content: spce-around;
-  }
+  justify-content: center;
+}
 
 .content {
   padding: 10px;
   margin: 10px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
-.cards{
-  display: flex;
+img {
+  display: block;
+  width: 100%;
+}
+
+.cards a {
+  display: block;
+}
+
+.cards {
   flex-wrap: wrap;
   align-content: center;
 }
