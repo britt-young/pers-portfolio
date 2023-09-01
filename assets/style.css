@@ -14,12 +14,11 @@ body {
 }
 
 h1 {
-  display:block;
-  float: top;
+  display:flex;
   width: 300px;
   border-radius: 5px;
   background-color: rgb(62, 48, 71);
-  padding: 5px;
+  padding: 1px;
   margin:0px;
   font-size: 2.5rem;
 }
@@ -49,11 +48,20 @@ h2 {
 height: 150px;
 width: auto;
 margin: auto;
-background-color: rgb(105, 87, 117);
+background-image:linear-gradient(65deg,#695775, #0c1831);
+background-color: #695775;
 color:white;
 display: block;
-text-align: right;
+text-align:right;
 position: relative;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 footer {
@@ -61,33 +69,22 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background:  rgb(12, 24, 49);
+  background:  #0c1831;
   color: none;
   margin-top: auto;
 }
 
-span {
-  background-color: var(--default);
-  border-right: 3px solid rgb(96, 76, 109);
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: right;
-  padding-right: 20px;
-}
-
-img {
-  
-}
-
 .content {
   padding: 10px;
-  flex: 0 0 150px;
-  margin: 20px;
+  margin: 10px;
   display: flex;
-  flex-wrap:wrap;
+  flex-direction:row;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 @media screen and (max-width: 768px) {
