@@ -6,7 +6,7 @@
 - This personal portfolio will allow potential clients and/or companies to read a brief description about me, view clickable links to my past projects, and contact me from a single web page.
 
 ## Usage
-Navigate to (INSERT URL)
+Navigate to (https://britt-young.github.io/pers-portfolio/)
 User can utilize the Nav Box at the top of the page to navigate to specific content areas within web page
 Contents include an 
 - About us section
