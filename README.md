@@ -14,7 +14,7 @@ Contents include an
 - Connect with us section (each method of communication will initiage communication through URL link)
 
   Please see screenshot below:
-    ![alt text]("C:\Users\britt\bootcamp\challenges\pers-portfolio\assets\images\screenshot.png")
+    ![alt text]("assets/images/screenshot.png")
    
 
 ## Credits
