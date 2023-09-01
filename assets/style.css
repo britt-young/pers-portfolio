@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 h2 {
-height: 150px;
+height: 50px;
 width: auto;
 margin: auto;
 background-image:linear-gradient(65deg,#695775, #0c1831);
@@ -54,6 +54,11 @@ color:white;
 display: block;
 text-align:right;
 position: relative;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
 }
 
 aside {
@@ -73,6 +78,12 @@ footer {
   color: none;
   margin-top: auto;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  }
 
 .content {
   padding: 10px;
