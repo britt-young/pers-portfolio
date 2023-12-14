@@ -12,15 +12,13 @@ Contents include an
 - About us section
 - Works section (each screenshot image is clickable with link to previous work url)
 - Connect with us section (each method of communication will initiage communication through URL link)
+  
+   ![alt text](assets/images/screenshot.png)
 
-  Please see screenshot below:
-    ![alt text]("assets/images/screenshot.png")
-   
 
 ## Credits
 Referenced reset.css from previous examples during bootcamp online course
 References used include; Stackoverflow, Mdn web docs, Full-stack-blog, and W3 Schools
 
 ## License
-n/a
----
+
